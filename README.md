@@ -28,4 +28,9 @@ Like this: <code>isLightThemed(false)</code>
 
 ### Ternary + State
 
-Ternary and state work very well together for various reasons, but I want to go over what I am using in this app. I use ternary and state because when you use state to re-render a component, the entire component is reloaded, thus re-running whatever code is inside it. When we change the <code>lightThemed</code> to false and back to true using <code>isLightThemed(false)</code> and <code>isLightThemed(true)</code> , we reload the function, but with <code>lightThemed</code> changed to the variable we set. This means the when ``` const theme = lightThemed ? 'dark' : 'light' ``` is read, depending on what the state variable is at the time, true or false, a different word will be put into the variable ``` theme ```
+Ternary and state work very well together for various reasons, but I want to go over what I am using in this app. I use ternary and state because when you use state to re-render a component, the entire component is reloaded, thus re-running whatever code is inside it. When we change the <code>lightThemed</code> to false and back to true using <code>isLightThemed(false)</code> and <code>isLightThemed(true)</code> , we reload the function, but with <code>lightThemed</code> changed to the variable we set. This means the when ``` const theme = lightThemed ? 'dark' : 'light' ``` is read, depending on what the state variable is at the time, true or false, a different word will be put into the variable ``` theme ```.
+
+My app has a button that you press that changes the theme from light to dark. Not only do the colours change, but so do the words! This is the power of ternary and state, mixed with css transitions.
+
+
+Please feel free to check out my website too, which is currently just a work in progress. [RyanColl](https://rcoll-fullstack-dev.web.app/)
