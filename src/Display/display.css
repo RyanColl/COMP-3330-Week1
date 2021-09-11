@@ -10,14 +10,18 @@
     transition: all 0.5s;
 }
 
-.circle {
+.circle, .circle-dark {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     transition: all 0.5s;
+}
+.circle{
     animation: skeleton 3.5s linear infinite alternate;
 }
-
+.circle-dark {
+    animation: skeleton-dark 3.5s linear infinite alternate;
+}
 .h4 {
     font-size: 36px;
     font-weight: 300;
@@ -41,6 +45,12 @@
 
 
 @keyframes skeleton {
+    0% {background-color: rgb(99, 99, 99);}
+    50% {background-color: rgb(230, 230, 230);}
+    100% {background-color: rgb(99, 99, 99);}
+}
+
+@keyframes skeleton-dark {
     0% {background-color: rgb(230, 230, 230);}
     50% {background-color: rgb(99, 99, 99);}
     100% {background-color: rgb(230, 230, 230);}
