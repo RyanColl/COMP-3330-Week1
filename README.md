@@ -4,6 +4,14 @@
 
 In week 1, we discussed the basics of React. I want to introduce to you a project that I am doing for COMP-3330 in week 1. I am going to build a simple app that uses typescript, ternary oporators, state, and a button to change dark theme to light theme!
 
+### ES6 Usage Examples
+
+the latest Ecma Script update, EC6, brought with it a range of really cool new features to use in our javascript, or in some cases, typescript programming. In this project, I used the following EC6 features:
+
+<pre><code>Arrow Function: const changeTheme = () => {
+    lightThemed ? isLightThemed(false) : isLightThemed(true)
+  }</code></pre>
+
 ### Typescript
 
 Typescript is involved in the project, but do not worry, simply using ```npm install``` when you enter the project solves any sort of dependency problems. To install typescript in a react-app of your own, visit this [link.](https://create-react-app.dev/docs/adding-typescript/)
