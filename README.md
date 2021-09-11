@@ -6,7 +6,7 @@ In week 1, we discussed the basics of React. I want to introduce to you a projec
 
 ### Typescript
 
-Typescript is involved in the project, but do not worry, simply using npm install when you enter the project solves any sort of dependency problems. To install a react-app in a typescript project of your own, visit this [link.](https://create-react-app.dev/docs/adding-typescript/)
+Typescript is involved in the project, but do not worry, simply using ```npm install``` when you enter the project solves any sort of dependency problems. To install a react-app in a typescript project of your own, visit this [link.](https://create-react-app.dev/docs/adding-typescript/)
 
 ### Ternary
 
