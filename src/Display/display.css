@@ -1,0 +1,32 @@
+.display-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.h4 {
+    font-size: 36px;
+    font-weight: 300;
+    transition: all 0.5s;
+}
+
+.display-inner-container {
+    border-radius: 2.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+}
+.button {
+    padding: 10px;
+    border-radius: 15px;
+}
