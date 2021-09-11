@@ -12,7 +12,7 @@ Typescript is involved in the project, but do not worry, simply using npm instal
 
 Ternary operator is used to check a condition that returns a boolean, and then executes code based on whether it is true or false. Ternary can look at a boolean directly, or it can look at a comparison, as it always resorts to a boolean. In my code, I did not use a comparison, just a straight boolean. 
 
-In the code ``` const theme = lightThemed ? 'dark' : 'light' ``` I am asking javascript to evaluate the first statement, the <code>lightThemed</code>, and if its true, return 'dark'. If <code>lightThemed</code> false, return 'light'. I am using it in this instance to assign a string to a variable depending on the falsity of <code>lightThemed</code>. I use this code later, which I explain in my ternary-state section.
+In the code ``` const theme = lightThemed ? 'dark' : 'light' ``` I am asking javascript to evaluate the first statement, the <code>lightThemed</code>, and if its true, return 'dark'. If <code>lightThemed</code> is false, return 'light'. I am using it in this instance to assign a string to a variable depending on the falsity of <code>lightThemed</code>. I use this code to change which word is use in a sentence, which I explain in my ternary-state section.
 
 ### State
 
