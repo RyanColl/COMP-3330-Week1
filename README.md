@@ -22,4 +22,4 @@ For example, in the following code, we will destructure our state variable and o
 
 </br>
 
-<pre><code>lightThemed</code></pre> is a boolean, and isLightThemed takes in a boolean, and sets lighThemed as such.
+<code>lightThemed</code> is a boolean, and isLightThemed takes in a boolean, and sets lighThemed as such.
