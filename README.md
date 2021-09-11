@@ -12,6 +12,13 @@ Arrow Function: <pre><code>const changeTheme = () => {
     lightThemed ? isLightThemed(false) : isLightThemed(true)
   }</code></pre>
 
+Destructuring: <pre><code>const { buttonClick, lightThemed, width, height } = props;</code></pre>
+
+Const: <pre><code>const height = window.innerHeight
+  const width = window.innerWidth</code></pre>
+
+This is the extent of my EC6 feature usage in this project.
+
 ### Typescript
 
 Typescript is involved in the project, but do not worry, simply using ```npm install``` when you enter the project solves any sort of dependency problems. To install typescript in a react-app of your own, visit this [link.](https://create-react-app.dev/docs/adding-typescript/)
