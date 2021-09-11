@@ -2,7 +2,7 @@ import React from "react";
 import './display.css'
 const Display = (props: any) => {
     const { buttonClick, lightThemed, width, height } = props;
-    const theme = !lightThemed ? 'light' : 'dark'
+    const theme = lightThemed ? 'dark' : 'light'
     return(
         <div className={'display'} style={{width: width*0.8, height: height*0.8}}>
             <div className={'display-container'} style={lightThemed ? {backgroundColor: 'white', width: width*0.8, height: height*0.8} : {backgroundColor: '#2e2e2e', width: width*0.8, height: height*0.8} }>
