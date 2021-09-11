@@ -8,7 +8,7 @@ In week 1, we discussed the basics of React. I want to introduce to you a projec
 
 the latest Ecma Script update, EC6, brought with it a range of really cool new features to use in our javascript, or in some cases, typescript programming. In this project, I used the following EC6 features:
 
-<pre><code>Arrow Function: const changeTheme = () => {
+<pre>Arrow Function: <code>const changeTheme = () => {
     lightThemed ? isLightThemed(false) : isLightThemed(true)
   }</code></pre>
 
