@@ -19,3 +19,7 @@ For example, in the following code, we will destructure our state variable and o
 </br>
 
 <code>const [lightThemed, isLightThemed] = React.useState(true)</code>
+
+</br>
+
+<pre><code>lightThemed</code></pre> is a boolean, and isLightThemed takes in a boolean, and sets lighThemed as such.
