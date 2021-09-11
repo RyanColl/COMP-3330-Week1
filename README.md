@@ -12,7 +12,8 @@ Typescript is involved in the project, but do not worry, simply using npm instal
 
 Ternary operator is used to check a condition that returns a boolean, and then executes code based on whether it is true or false. Ternary can look at a boolean directly, or it can look at a comparison, as it always resorts to a boolean. In my code, I did not use a comparison, just a straight boolean. 
 
-In the code ``` const theme = lightThemed ? 'dark' : 'light' ``` I am asking javascript to evaluate the first statement, the <code>lightThemed</code>, and if its true, return 'dark', or if lightThemed false, return 'light'. I am using it in this instance to assign a string to a variable depending on the falsity of lightThemed.
+In the code ``` const theme = lightThemed ? 'dark' : 'light' ``` I am asking javascript to evaluate the first statement, the <code>lightThemed</code>, and if its true, return 'dark'. If <code>lightThemed</code> false, return 'light'. I am using it in this instance to assign a string to a variable depending on the falsity of <code>lightThemed</code>. I use this code later, which I explain in my ternary-state section.
+
 ### State
 
 State is used to update a component. Updating a component re-renders it, but with the re-rendered value. </br>
@@ -24,3 +25,7 @@ For example, in the following code, we will destructure our state variable and o
 <code>lightThemed</code> is a boolean, and <code>isLightThemed</code> takes in a boolean, and sets <code>lightThemed</code> as such. 
 
 Like this: <code>isLightThemed(false)</code>
+
+### Ternary + State
+
+Ternary and state work very well together for various reasons, but I want to go over what I am using in this app. I use ternary and state because when you use state to re-render a component, the entire component is reloaded, thus re-running whatever code is inside it. When we change the <code>lightThemed</code> to false and back to true using <code>isLightThemed(false)</code> and <code>isLightThemed(true)</code> , we reload the function, but with <code>lightThemed</code> changed to the variable we set. This means the when ``` const theme = lightThemed ? 'dark' : 'light' ``` is read, depending on what the state variable is at the time, true or false, a different word will be put into the variable ``` theme ```
